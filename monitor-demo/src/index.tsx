@@ -14,7 +14,6 @@ export const MitoInstance = init({
 if (process.env.NODE_ENV === 'production') {
   worker.start({
     serviceWorker: {
-      url: '/react-sdk-demo/mockServiceWorker.js',
     },
   })
 } else {
